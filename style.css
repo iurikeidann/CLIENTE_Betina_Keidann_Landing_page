@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+    "header"
+    "article"
+    "footer"
+    ;
+    grid-gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.article {
+    grid-area: article;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    margin-top: auto;
+}
