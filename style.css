@@ -43,7 +43,6 @@ header span {
     text-decoration: underline;
 }
 
-
 /* ------------------------------------------ NAV ------------------------------------------ */
 
 nav ul {
@@ -51,26 +50,36 @@ nav ul {
     justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0px 0 0;
     background-color: rgb(0, 174, 205);
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 15px 10px;
 }
 
 nav ul li a {
-    color: white;
+    display: flex;
+    align-items: center;
+    color: rgb(65,65,65);
     text-decoration: none;
-    padding: 20px 30px;
-    background-color: rgb(87, 87, 87);
-    border-radius: 20px;
-    transition: background-color 0.3s;
+    padding: 15px 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: background-color 0.5s, transform 0.5s;
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: #005f7c;
+    background-color: rgb(65,65,65);
+    color: white;
+    font-size: 1.2rem;
+    transform: scale(1.1);
+}
+
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 1.5rem; 
 }
 
 /* ------------------------------------------ MAIN ------------------------------------------ */
