@@ -10,7 +10,10 @@ body {
 /* ------------------------------------------ HEADER ------------------------------------------ */
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-image: url('assets/Header_Background.jpg');
+    position: static;
+    background-size: cover;
+    background-position: center;
     color: black;
     text-align: center;
     padding: 20px 0px;
@@ -40,6 +43,7 @@ header span {
     text-decoration: underline;
 }
 
+
 /* ------------------------------------------ NAV ------------------------------------------ */
 
 nav ul {
@@ -59,7 +63,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     padding: 20px 30px;
-    background-color: #007b9e;
+    background-color: rgb(87, 87, 87);
     border-radius: 20px;
     transition: background-color 0.3s;
     font-weight: bold;
@@ -110,6 +114,7 @@ main .about h3 {
 main .about p {
     font-size: 1rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* ------------------------------------------ FOOTER ------------------------------------------ */
