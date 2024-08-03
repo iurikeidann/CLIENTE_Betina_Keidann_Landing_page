@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: rgb(50, 50, 50);
 }
 
 /* ------------------------------------------ HEADER ------------------------------------------ */
@@ -49,13 +49,14 @@ nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
-    margin: 0px 0 0;
+    padding: 10px;
+    margin: 10px 0 0;
     background-color: rgb(0, 174, 205);
 }
 
 nav ul li {
     margin: 15px 10px;
+    padding: 15px;
 }
 
 .nav-link-container {
@@ -77,6 +78,7 @@ nav ul li a {
 
 .nav-link-container:hover {
     transform: scale(1.1);
+    color:rgb(0, 174, 205);
 }
 
 nav ul li a i {
@@ -84,14 +86,44 @@ nav ul li a i {
     font-size: 1.5rem; 
 }
 
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 1.5rem; 
+}
+
+nav ul li a:hover .fa-facebook-f {
+    display: none;
+}
+
+nav ul li a:hover .fa-instagram {
+    display: none;
+}
+
+nav ul li a:hover .fa-whatsapp {
+    display: none;
+}
+
+nav ul li a:hover .fa-comments {
+    display: none;
+}
+
+nav ul li a:hover .fa-paw {
+    display: inline;
+}
+
+nav ul li a .fa-paw {
+    display: none;
+}
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-
+    
     nav ul li {
-        margin: 10px 0;
+        margin: 0px 0;
+        padding: 5px;
     }
 
     nav ul li a {
@@ -132,6 +164,11 @@ main .about {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
 
+.about p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
 @media (max-width: 768px) {
     main {
         flex-direction: column;
@@ -159,7 +196,7 @@ main .about h3 {
 }
 
 main .about p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     text-align: justify;
 }
@@ -168,12 +205,14 @@ main .about p {
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 0;
     background-color: #ffffff;
     color: rgb(126, 126, 126);
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .footer_logo {
     width: 120px;
+    padding: 10px;
+    margin: 0px;
 }
