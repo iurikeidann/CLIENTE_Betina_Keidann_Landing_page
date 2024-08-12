@@ -201,6 +201,28 @@ main .about p {
     text-align: justify;
 }
 
+.comentarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+.usuario {
+    display: flex;
+    align-items: center;
+}
+  
+.usuario img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 /* ------------------------------------------ FOOTER ------------------------------------------ */
 
 footer {
@@ -215,16 +237,4 @@ footer {
     width: 120px;
     padding: 10px;
     margin: 0px;
-}
-
-/* ------------------------------------------ FEEDBACKS ------------------------------------------ */
-
-.feedbacks {
-    display: flex;
-    width: 100%;
-
-}
-
-.slot_comentario {
-    background-color:rgb(126, 126, 126);
 }
