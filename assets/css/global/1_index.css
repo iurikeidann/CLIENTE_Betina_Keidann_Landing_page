@@ -3,7 +3,8 @@
 @import './2_header.css';
 @import './3_nav.css';
 @import './4_main.css';
-@import './5_footer.css';
+@import './5_main_coments.css';
+@import './6_footer.css';
 
 body {
     font-family: 'Arial', sans-serif;

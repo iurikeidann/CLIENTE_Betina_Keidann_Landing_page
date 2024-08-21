@@ -1,0 +1,41 @@
+/*--------------- 5_main_coments.CSS ---------------*/
+
+#main_coments {
+    padding: 100px 0;
+    /* ------------- */
+
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.main_coments {
+    border-left: 4px solid rgb(41, 41, 41);
+    /* ALTERA A COR DAS BARRAS */
+    
+    margin-top: 50px;
+    /* ------------- */
+
+    margin-bottom: 0 10px;
+    /* ------------- */
+}
+
+.main_coments img {
+    height: 60px;
+    /* ------------- */
+
+    width: 60px;
+    /* ------------- */
+
+    border-radius: 50%;
+    /* ------------- */
+
+    margin: 0 10px;
+    /* ------------- */
+}
+
+.user-details {
+    display: inline-block;
+    /* ------------- */
+
+    font-size: 12px;
+    /* ------------- */
+}
