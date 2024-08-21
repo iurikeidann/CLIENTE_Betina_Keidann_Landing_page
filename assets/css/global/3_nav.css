@@ -1,0 +1,71 @@
+/*--------------- 3_nav.CSS ---------------*/
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 0 0;
+    background-color: rgb(0, 174, 205);
+}
+
+nav ul li {
+    margin: 15px 10px;
+    padding: 15px;
+}
+
+.nav-link-container {
+    display: inline-block;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    color: rgb(65,65,65);
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-link-container:hover {
+    transform: scale(1.1);
+    color:rgb(0, 174, 205);
+}
+
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 1.5rem; 
+}
+
+nav ul li a i {
+    margin-right: 8px;
+    font-size: 1.5rem; 
+}
+
+nav ul li a:hover .fa-facebook-f {
+    display: none;
+}
+
+nav ul li a:hover .fa-instagram {
+    display: none;
+}
+
+nav ul li a:hover .fa-whatsapp {
+    display: none;
+}
+
+nav ul li a:hover .fa-comments {
+    display: none;
+}
+
+nav ul li a:hover .fa-paw {
+    display: inline;
+}
+
+nav ul li a .fa-paw {
+    display: none;
+}

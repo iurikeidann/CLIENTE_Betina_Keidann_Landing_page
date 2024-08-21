@@ -1,0 +1,35 @@
+/*--------------- 2_header.CSS ---------------*/
+
+header {
+    background-image: url('assets/Header_Background.jpg');
+    position: static;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header h1 {
+    color: rgb(65, 65, 65);
+}
+
+header .logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 2rem;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+header span {
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+/*--------------- 1_index.CSS ---------------*/
+
+@import './2_header.css';
+@import './3_nav.css';
+@import './4_main.css';
+@import './5_footer.css';
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(50, 50, 50);
+}
